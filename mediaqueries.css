@@ -1,26 +1,39 @@
 @media screen and (min-width: 768px) {
-  .container-fluid{
+.container-fluid{
          display: flex;
          justify-content: center;
+         
     
   }
+.hotadds{
+     width: 95vw;
+  }
 
-  #search-input{
-      border-top: 0px solid;
-      border-bottom: 0px solid;
-      border-left: 3px solid var(--pink);
-     border-right: 4px solid var(--pink);
-      outline: none;
-
+.add-p{
+     font-size: 1rem;
 }
+
+.add-img{
+  width: 250px;
+  height: 200px;
+}
+  .hotadds >h5{
+    padding-left: 85px;
+  }
  
-
-  
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1000px) {
  .input-group-text{
       display: none;
  }
 
+  .add-heading{
+    font-size: 1.5rem;
+
+  }
+
+.hotadds{
+     width: 85vw;
+  }
 }
