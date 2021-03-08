@@ -158,3 +158,8 @@ img{
   width: 35vw;
   border-right: 1px solid var(--gray);
 }
+
+
+footer > article > ul > li{
+  font-size: 13px;
+}
