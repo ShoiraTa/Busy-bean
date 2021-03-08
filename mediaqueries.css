@@ -20,7 +20,9 @@
   .hotadds >h5{
     padding-left: 85px;
   }
- 
+ .body{
+      grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -35,5 +37,9 @@
 
 .hotadds{
      width: 85vw;
+  }
+
+  .body{
+      grid-template-columns: repeat(4, 1fr);
   }
 }

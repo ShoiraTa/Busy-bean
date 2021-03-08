@@ -54,9 +54,13 @@ img{
      padding: 0.2rem 2rem;
 }
 
+.img-logo{
+  width: 20px;
+}
+
 .navbar-nav > li{
-  padding-left:2rem;
-  padding-right:2rem;
+  padding-left:1rem;
+  padding-right:1rem;
 }
 
 .navbar-nav > li > a >i{
@@ -89,8 +93,7 @@ img{
      height: auto;
      padding: 30px;
      width: 100vw;
-     margin: 0 auto;
-       
+     margin: 0 auto; 
   }
  
  .add-p{
@@ -129,10 +132,15 @@ img{
   .body{
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    
   }
 
   .card-img-top {
-    height: 250px;
+    height: 280px;
+  }
+
+  .main{
+    background: rgb(241, 237, 229);
   }
 
