@@ -1,11 +1,8 @@
-@media screen and (max-width: 768px) {
-  body {
-    background-color: lightgreen;
+@media screen and (min-width: 768px) {
+  .container-fluid{
+         display: flex;
+         justify-content: center;
+    
   }
 }
 
-@media screen and (max-width: 1200px) {
-  body {
-    background-color: rgb(25, 41, 25);
-  }
-}
