@@ -14,6 +14,10 @@ html {
   font-size: 100%;
 }
 
+a, .font-weight-bold, .text-light{
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -144,3 +148,13 @@ img{
     background: rgb(241, 237, 229);
   }
 
+/* Footer */
+
+.p-footer{
+  font-size: 13px;
+}
+
+.footer-logo{
+  width: 35vw;
+  border-right: 1px solid var(--gray);
+}
