@@ -1,0 +1,29 @@
+/* 
+font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Acumin Pro Bold Italic
+font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Acumin Pro Italic
+font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+
+Acumin Pro Regular
+font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal; */
+:root{
+     --pink: #D35266;
+     --gray: #888888;
+     --dark: #383838;
+}
+
+body{
+     font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
