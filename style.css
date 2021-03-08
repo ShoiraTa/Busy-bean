@@ -87,9 +87,20 @@ body {
 /* Search Section */
 
 .search{
-     height: 30vh;
+     height: auto;
+
      background: var(--pink);
-    
+     padding: 30px;
+
+     
 }
 
 
+
+.dropdown-toggle{
+      border-right: 5px solid var(--pink);
+}
+
+  #search-input{
+      border:none 
+  }
