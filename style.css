@@ -168,3 +168,19 @@ border-right: 1px solid rgb(212, 211, 211);
 footer > article > ul > li{
   font-size: 13px;
 }
+
+/* search page main */
+
+.page{
+  border:1px solid rgba(182, 181, 182, 0.52);
+  padding: 0 5px;
+  margin: 4px;
+  text-decoration: none;
+  background: rgb(241, 240, 240);
+  color: var(--dark);
+}
+
+.page-active{
+  background: var(--pink);
+  color: var(--white);
+}
