@@ -4,7 +4,7 @@
 
 >  Responsive eCommerce web page.
 
-
+![screenshot](./img/homepage.png) [screenshot](.img/search -result.png)
 
 
 ## Built With
