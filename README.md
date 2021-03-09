@@ -5,9 +5,9 @@
 
 >  Responsive eCommerce web page.
 
-| View on large screen | View on medium screen | View on small screen |
+| Homepage Large screen | Search result large screen | View on small screen |
 | --- | --- | --- |
-| ![](./img/homepage.png) | ![](./img/search-result.png) 
+| ![](./img/homepage.png) | ![](./img/search-result.png)
 
 
 ![screenshot]()
