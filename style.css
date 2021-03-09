@@ -140,7 +140,7 @@ color: var(--gray);
 }
 
 .add-img{
-  width: 120px;
+  width: 110px;
   height: 100px;
  margin-right:1rem;
 }
@@ -216,4 +216,19 @@ footer > article > ul > li{
 
 .page:hover{
   color: var(--dark);
+}
+
+/* Lavazza page header */
+
+.search-lavazza{
+  height: auto;
+     background:linear-gradient(to bottom, rgba(53, 30, 39, 0.52), rgb(29, 28, 28)),  url(./img/pexels-igor-haritanovich-1695052.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 50px; 
+}
+
+.lavazza{
+  width:   400px;
 }
