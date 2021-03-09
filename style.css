@@ -96,7 +96,7 @@ img{
   .hotadds{
      height: auto;
      padding: 30px;
-     width: 100vw;
+  
      margin: 0 auto; 
   }
  
@@ -129,14 +129,15 @@ img{
   }
 
   /* Body */
+
   .body{
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .card-img-top {
-    height: 280px;
+    height: 180px;
   }
 
   .main{

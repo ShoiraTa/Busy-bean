@@ -4,7 +4,7 @@
          justify-content: center;
   }
 .hotadds{
-     width: 95vw;
+     width: 100vw;
   }
 
 .add-p{
@@ -16,12 +16,19 @@
   height: 200px;
 }
   .hotadds >h5{
-    padding-left: 85px;
+    padding-left: 150px;
   }
-  
- .body{
+.body{
       grid-template-columns: repeat(2, 1fr);
   }
+
+   .card-img-top {
+    height: 270px;
+  }
+  .carousel-inner {
+  padding: 0 120px
+}
+ 
 }
 
 @media screen and (min-width: 1000px) {
