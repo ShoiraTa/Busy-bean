@@ -2,9 +2,15 @@
 
 # Capstone Project- Busy Bean
 
+
 >  Responsive eCommerce web page.
 
-![screenshot](./img/homepage.png) [screenshot](.img/search -result.png)
+| View on large screen | View on medium screen | View on small screen |
+| --- | --- | --- |
+| ![](./img/homepage.png) | ![](./img/search-result.png) 
+
+
+![screenshot]()
 
 
 ## Built With
