@@ -28,7 +28,18 @@
   .carousel-inner {
   padding: 0 120px
 }
- 
+ .button-pink{
+     padding: 0.5rem ;
+     background: var(--pink);
+     outline: none;
+     color: var(--white);
+     text-decoration: none;
+     border-radius: 2px;
+     transition: all 0.3s ease;
+     font-size: 1rem;
+
+}
+
 }
 
 @media screen and (min-width: 1000px) {

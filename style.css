@@ -35,9 +35,10 @@ a, .font-weight-bold, .text-dark {
 
 
 .button-pink{
-     padding: 0.5rem;
+     padding: 0.3rem 1rem;
      background: var(--pink);
      outline: none;
+     font-size: 13px;
      color: var(--white);
      text-decoration: none;
      border-radius: 2px;
