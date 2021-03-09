@@ -232,3 +232,17 @@ footer > article > ul > li{
 .lavazza{
   width:   400px;
 }
+/* starbucks page header */
+
+.search-starbucks{
+height: auto;
+     background:linear-gradient(to bottom, rgba(22, 21, 22, 0.9), rgba(14, 13, 13, 0.9)),  url(./img/pexels-igor-haritanovich-1695052.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 50px; 
+}
+
+.starbucks{
+  width:   220px;
+}
