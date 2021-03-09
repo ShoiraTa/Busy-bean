@@ -2,8 +2,6 @@
 .container-fluid{
          display: flex;
          justify-content: center;
-         
-    
   }
 .hotadds{
      width: 95vw;
@@ -20,6 +18,7 @@
   .hotadds >h5{
     padding-left: 85px;
   }
+  
  .body{
       grid-template-columns: repeat(2, 1fr);
   }
