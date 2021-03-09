@@ -3,14 +3,13 @@
 # Capstone Project- Busy Bean
 
 
->  Responsive eCommerce web page.
+>  Responsive eCommerce web page. 
 
-| Homepage Large screen | Search result large screen | View on small screen |
-| --- | --- | --- |
+| Homepage Large screen | Search result large screen | 
+| --- | --- |
 | ![](./img/homepage.png) | ![](./img/search-result.png)
 
 
-![screenshot]()
 
 
 ## Built With
@@ -20,12 +19,6 @@
 - Bootstrap, 
 
 ## Live Demo
-# Table of Contents
-
-1. [My first title](#my-first-title)
-2. [My second title](#my-second-title)
-
-
 [Live Demo Link](https://shoirata.github.io/ZATTIX/)
 
 
