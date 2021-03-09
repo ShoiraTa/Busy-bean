@@ -27,7 +27,7 @@ li{
   list-style: none;
 }
 
-a, .font-weight-bold, .text-dark {
+a, .font-weight-bold, .text-dark, .text-light {
   text-decoration: none;
   list-style: none;
 }
@@ -75,6 +75,11 @@ padding: 9px;
 text-decoration: none;
 color: var(--gray);
 }
+
+ .btn-all-brands{
+   outline: none;
+   border: none;
+ }
 
 .btn-login:hover{
   background: var(--pink);
@@ -139,7 +144,7 @@ color: var(--gray);
   height: 100px;
  margin-right:1rem;
 }
- 
+
 
   .carouselExampleInterval{
     display: flex;
