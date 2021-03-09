@@ -4,7 +4,7 @@
 
 >  Responsive eCommerce web page.
 
-![screenshot](./app_screenshot.png)
+
 
 
 ## Built With
@@ -14,6 +14,11 @@
 - Bootstrap, 
 
 ## Live Demo
+# Table of Contents
+
+1. [My first title](#my-first-title)
+2. [My second title](#my-second-title)
+
 
 [Live Demo Link](https://shoirata.github.io/ZATTIX/)
 
