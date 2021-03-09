@@ -5,7 +5,7 @@
 
 >  Responsive eCommerce web page. 
 
-| Homepage Large screen | Search result large screen | 
+| Homepage | Search result page| 
 | --- | --- |
 | ![](./img/homepage.png) | ![](./img/search-result.png)
 

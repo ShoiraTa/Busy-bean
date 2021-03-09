@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
   }
+
   .hotadds {
     width: 100vw;
   }
@@ -16,9 +17,11 @@
     height: 200px;
     margin: 0;
   }
+
   .hotadds > h5 {
     padding-left: 150px;
   }
+
   .body {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -26,9 +29,11 @@
   .card-img-top {
     height: 270px;
   }
+
   .carousel-inner {
     padding: 0 120px;
   }
+
   .button-pink {
     padding: 0.5rem;
     background: var(--pink);

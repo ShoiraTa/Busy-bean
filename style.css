@@ -1,11 +1,11 @@
-:root{
-     --pink: #D35266;
-     --gray: #888888;
-     --dark: #383838;
-     --white:#fff;
+:root {
+  --pink: #d35266;
+  --gray: #888;
+  --dark: #383838;
+  --white: #fff;
 }
 
-.pink{
+.pink {
   color: var(--pink);
 }
 
@@ -14,194 +14,190 @@ html {
   font-size: 100%;
 }
 
-
 body {
   margin: 0;
   padding: 0;
   font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   text-decoration: none;
-} 
+}
 
-li{
+li {
   list-style: none;
 }
 
-a, .font-weight-bold, .text-dark, .text-light {
+a,
+.font-weight-bold,
+.text-dark,
+.text-light {
   text-decoration: none;
   list-style: none;
 }
 
-
-
-.button-pink{
-     padding: 0.3rem 1rem;
-     background: var(--pink);
-     outline: none;
-     font-size: 13px;
-     color: var(--white);
-     text-decoration: none;
-     border-radius: 2px;
-     transition: all 0.3s ease;
-
+.button-pink {
+  padding: 0.3rem 1rem;
+  background: var(--pink);
+  outline: none;
+  font-size: 13px;
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 2px;
+  transition: all 0.3s ease;
 }
 
-.button-pink:hover{
-     background: var(--white);
-     color: var(--pink);
-     border: 2px solid var(--pink);
+.button-pink:hover {
+  background: var(--white);
+  color: var(--pink);
+  border: 2px solid var(--pink);
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-img{
+img {
   width: 100%;
 }
 
-.border-bottom{
+.border-bottom {
   border-bottom: 3px solid var(--dark);
 }
 
-.border-right{
-border-right: 1px solid rgb(212, 211, 211);
+.border-right {
+  border-right: 1px solid rgb(212, 211, 211);
 }
 
-.btn-login{
-padding: 9px;
-text-decoration: none;
-color: var(--gray);
+.btn-login {
+  padding: 9px;
+  text-decoration: none;
+  color: var(--gray);
 }
 
- .btn-all-brands{
-   outline: none;
-   border: none;
- }
+.btn-all-brands {
+  outline: none;
+  border: none;
+}
 
-.btn-login:hover{
+.btn-login:hover {
   background: var(--pink);
   color: var(--white);
 }
 
 /* Navbar */
 
-.navbar{
-     padding: 0.2rem 2rem;
+.navbar {
+  padding: 0.2rem 2rem;
 }
 
-.img-logo{
+.img-logo {
   width: 20px;
 }
 
-.navbar-nav > li{
-  padding-left:0.7rem;
-  padding-right:0.5rem;
+footer > article > ul > li {
+  font-size: 13px;
 }
 
-.navbar-nav > li > a >i{
-  padding-right:0.5rem;
-
+.navbar-nav > li {
+  padding-left: 0.7rem;
+  padding-right: 0.5rem;
 }
 
-#navbarNav > ul > li > a:hover{
+.navbar-nav > li > a > i {
+  padding-right: 0.5rem;
+}
+
+#navbarNav > ul > li > a:hover {
   color: var(--pink);
 }
 
 /* Search Section */
 
-.search{
-     height: auto;
-     background:linear-gradient(to bottom, rgba(53, 30, 39, 0.52), rgba(133, 119, 129, 0.73)),  url(./img/pexels-igor-haritanovich-1695052.jpg);
-     background-position: center;
-     background-attachment: fixed;
-     background-repeat: no-repeat;
-     background-size: cover;
-     padding: 50px;   
+.search {
+  height: auto;
+  background: linear-gradient(to bottom, rgba(53, 30, 39, 0.52), rgba(133, 119, 129, 0.73)), url(./img/pexels-igor-haritanovich-1695052.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
 }
 
-  #search-input{
-      border:none 
-  }
-
-  /* Hot adds */
-
-  .hotadds{
-     height: auto;
-     padding: 30px;
-  
-     margin: 0 auto; 
-  }
- 
- .add-p{
-     font-size: 12px;
+#search-input {
+  border: none;
 }
 
-.add-img{
+/* Hot adds */
+
+.hotadds {
+  height: auto;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.add-p {
+  font-size: 12px;
+}
+
+.add-img {
   width: 110px;
   height: 100px;
- margin-right:1rem;
+  margin-right: 1rem;
 }
 
+.carouselExampleInterval {
+  display: flex;
+  align-self: center;
+}
 
-  .carouselExampleInterval{
-    display: flex;
-    align-self: center;  
-  }
+.add-array-big {
+  padding: 7px 13px 6px 13px;
+  color: var(--pink);
+  border-radius: 50%;
+  border: solid 2px var(--gray);
+  margin: 20px;
+}
 
-  .add-array-big{
-    padding: 7px 13px 6px 13px; 
-    color: var(--pink);
-    border-radius: 50%;
-    border: solid 2px var(--gray);
-    margin:20px;
-  }
+.add-heading {
+  font-size: 1.2rem;
+}
 
-  .add-heading{
-    font-size: 1.2rem;
-  }
+/* Body */
 
-  /* Body */
+.body {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
 
-  .body{
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
-  }
+.card-img-top {
+  height: 180px;
+}
 
-  .card-img-top {
-    height: 180px;
-  }
-
-  .main{
-    background: rgb(241, 237, 229);
-  }
+.main {
+  background: rgb(241, 237, 229);
+}
 
 /* Footer */
 
-.p-footer{
+.p-footer {
   font-size: 13px;
 }
 
-.footer-logo{
+.footer-logo {
   width: 35vw;
   border-right: 1px solid var(--gray);
-  background:linear-gradient(to bottom, rgba(53, 30, 39, 0.6), rgba(41, 37, 40, 1)),  url(./img/pexels-igor-haritanovich-1695052.jpg);
+  background: linear-gradient(to bottom, rgba(53, 30, 39, 0.6), rgba(41, 37, 40, 1)), url(./img/pexels-igor-haritanovich-1695052.jpg);
   background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-}
-
-footer > article > ul > li{
-  font-size: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* search page main */
 
-.page{
-  border:1px solid rgba(182, 181, 182, 0.52);
+.page {
+  border: 1px solid rgba(182, 181, 182, 0.52);
   padding: 0 5px;
   margin: 4px;
   text-decoration: none;
@@ -209,40 +205,41 @@ footer > article > ul > li{
   color: var(--dark);
 }
 
-.page-active{
+.page-active {
   background: var(--pink);
   color: var(--white);
 }
 
-.page:hover{
+.page:hover {
   color: var(--dark);
 }
 
 /* Lavazza page header */
 
-.search-lavazza{
+.search-lavazza {
   height: auto;
-     background:linear-gradient(to bottom, rgba(53, 30, 39, 0.52), rgb(29, 28, 28)),  url(./img/pexels-igor-haritanovich-1695052.jpg);
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     padding: 50px; 
+  background: linear-gradient(to bottom, rgba(53, 30, 39, 0.52), rgb(29, 28, 28)), url(./img/pexels-igor-haritanovich-1695052.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
 }
 
-.lavazza{
-  width:   400px;
+.lavazza {
+  width: 400px;
 }
+
 /* starbucks page header */
 
-.search-starbucks{
-height: auto;
-     background:linear-gradient(to bottom, rgba(22, 21, 22, 0.9), rgba(14, 13, 13, 0.9)),  url(./img/pexels-igor-haritanovich-1695052.jpg);
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     padding: 50px; 
+.search-starbucks {
+  height: auto;
+  background: linear-gradient(to bottom, rgba(22, 21, 22, 0.9), rgba(14, 13, 13, 0.9)), url(./img/pexels-igor-haritanovich-1695052.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
 }
 
-.starbucks{
-  width:   220px;
+.starbucks {
+  width: 220px;
 }
