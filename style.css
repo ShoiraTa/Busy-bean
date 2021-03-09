@@ -14,9 +14,6 @@ html {
   font-size: 100%;
 }
 
-a, .font-weight-bold, .text-light{
-  text-decoration: none;
-}
 
 body {
   margin: 0;
@@ -25,6 +22,17 @@ body {
   font-weight: 300;
   text-decoration: none;
 } 
+
+li{
+  list-style: none;
+}
+
+a, .font-weight-bold, .text-dark {
+  text-decoration: none;
+  list-style: none;
+}
+
+
 
 .button-pink{
      padding: 0.5rem;
@@ -61,6 +69,17 @@ img{
 border-right: 1px solid rgb(212, 211, 211);
 }
 
+.btn-login{
+padding: 9px;
+text-decoration: none;
+color: var(--gray);
+}
+
+.btn-login:hover{
+  background: var(--pink);
+  color: var(--white);
+}
+
 /* Navbar */
 
 .navbar{
@@ -72,8 +91,8 @@ border-right: 1px solid rgb(212, 211, 211);
 }
 
 .navbar-nav > li{
-  padding-left:1rem;
-  padding-right:1rem;
+  padding-left:0.7rem;
+  padding-right:0.5rem;
 }
 
 .navbar-nav > li > a >i{
@@ -163,6 +182,10 @@ border-right: 1px solid rgb(212, 211, 211);
 .footer-logo{
   width: 35vw;
   border-right: 1px solid var(--gray);
+  background:linear-gradient(to bottom, rgba(53, 30, 39, 0.6), rgba(41, 37, 40, 1)),  url(./img/pexels-igor-haritanovich-1695052.jpg);
+  background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 footer > article > ul > li{
@@ -183,4 +206,8 @@ footer > article > ul > li{
 .page-active{
   background: var(--pink);
   color: var(--white);
+}
+
+.page:hover{
+  color: var(--dark);
 }
