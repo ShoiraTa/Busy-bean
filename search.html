@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Busy bean</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaqueries.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ykk6qjs.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/9875f697fa.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+<header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand font-weight-bold" href="#"><img class="img-logo" src="./img/coffee-bean-128.png"  alt=""> Busy Bean</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-5">
+              <li class="nav-item pr-4">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item mr-5">
+                <a class="nav-link" href="#">
+                  COFFEE COLLECTIONS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-shopping-cart"></i> Order</a
+                >
+              </li>
+              <li class="nav-item m-md-auto d-none d-md-block">
+                <a href="#" class="button-pink">POST AN ADD</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<!-- search section-->
+      <section class=" search container-lg">
+        <div class="search-top d-flex flex-column justify-content-center pt-3 align-items-center  text-light">
+          <h1>BUSY BEAN</h1>
+          <p>Buy premium quality whole bean coffee</p>
+        </div>
+        <div class="d-flex  flex-column m-3 justify-content-center flex-md-row">  
+             <!-- search input -->
+           <button class="btn btn-outline-light bg-light text-dark dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">All brands</button>
+           <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Starbucks</a></li>
+           <li><a class="dropdown-item" href="#">Lavazza</a></li>
+            <li><a class="dropdown-item" href="#">Morocco</a></li>
+            <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">All</a></li>
+      </ul>
+    
+  <input id="search-input"
+  type="text" class="" aria-label="Text input with dropdown button ">
+  <button class="btn bg-dark text-light ml-1" type="button" id="button-addon2">Search</button>
+</div>
+      </section>
+<main class="container-lg">
+  <div class="row">
+    <!-- left section -->
+    <div class="col-3 "><div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div></div>
+    <!-- right section -->
+    <div class="col-9"></div>
+  </div> 
+
+</main>    
+
+</body>
+</html>
