@@ -84,7 +84,7 @@ img{
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     padding: 30px;   
+     padding: 50px;   
 }
 
   #search-input{
@@ -102,7 +102,6 @@ img{
  
  .add-p{
      font-size: 12px;
-
 }
 
 .add-img{
@@ -114,8 +113,7 @@ img{
 
   .carouselExampleInterval{
     display: flex;
-    align-self: center;
-   
+    align-self: center;  
   }
 
   .add-array-big{
@@ -124,12 +122,10 @@ img{
     border-radius: 50%;
     border: solid 2px var(--gray);
     margin:20px;
-
   }
 
   .add-heading{
     font-size: 1.2rem;
-
   }
 
   /* Body */
@@ -137,7 +133,6 @@ img{
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 1fr;
-    
   }
 
   .card-img-top {
@@ -158,7 +153,6 @@ img{
   width: 35vw;
   border-right: 1px solid var(--gray);
 }
-
 
 footer > article > ul > li{
   font-size: 13px;
