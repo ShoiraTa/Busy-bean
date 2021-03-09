@@ -52,6 +52,15 @@ body {
 img{
   width: 100%;
 }
+
+.border-bottom{
+  border-bottom: 3px solid var(--dark);
+}
+
+.border-right{
+border-right: 1px solid rgb(212, 211, 211);
+}
+
 /* Navbar */
 
 .navbar{
