@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Busy bean</title>
+        <link rel="icon" href="./img/coffee-bean-128.png">
+     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ykk6qjs.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/9875f697fa.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+<header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand font-weight-bold" href="./index.html"><img class="img-logo" src="./img/coffee-bean-128.png"  alt="coffee-bean"> Busy Bean</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-5 d-md-flex align-items-center justify-content-between">
+            
+              <li class="nav-item pr-4">
+                <a class="nav-link active" aria-current="page" href="./index.html"
+                  >HOME</a
+                >
+              </li>
+           
+              <li class="nav-item mr-5">
+                <a class="nav-link" href="./search.html">
+                  COFFEE COLLECTIONS</a
+                >
+              </li>
+               <li class="nav-item mr-5">
+                <a class="nav-link" href="#">
+                  CONTACTS</a
+                >
+              </li>
+               </ul>
+              </div>
+               <ul class="d-none d-lg-block m-auto">
+              <li >
+                <a href="#" class="btn-login nav-item border small"><i class="fas fa-sign-in-alt"></i> Login </a>
+                 <a  href="#" class="btn-login nav-item float-left border small"> <i class="fas fa-user-plus"></i> Sign up</a>
+              </li>
+              </ul>
+          </div>  
+      </nav>
+</header>
+<!-- search section-->
+<section class=" search container-lg">
+        <div class="search-top d-flex flex-column justify-content-center pt-3 align-items-center  text-light">
+          <h1>BUSY BEAN</h1>
+          <h2 class="small">Premium quality coffee</h2>
+        </div>
+        <div class="d-flex  flex-column m-3 justify-content-center flex-md-row">  
+             <!-- search input -->
+           <button class="btn-all-brands  bg-light text-dark dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">All brands</button>
+           <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Starbucks</a></li>
+           <li><a class="dropdown-item" href="#">Lavazza</a></li>
+            <li><a class="dropdown-item" href="#">Morocco</a></li>
+            <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">All</a></li>
+      </ul>
+    
+  <input id="search-input"
+  type="text" class="" aria-label="Text input with dropdown button ">
+   <a  href="./search.html" class="btn bg-dark text-light ml-1" >Search</a>
+</div>
+</section>
+<main class="container-lg">
+<div class="row">
+
+<!-- left section -->
+<div class="col-md-3 d-none d-md-block p-4 pb-0 border-right">
+<div class="form d-flex align-items-center justify-content-between py-3 pl-2 border-bottom">
+<div class="form-group form-check ">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label  small" for="exampleCheck1">Grinded</label>
+     </div>
+
+    <div class="form-group form-check ">
+    <input type="checkbox" class="form-check-input" id="exampleCheck">
+    <label class="form-check-label small" for="exampleCheck">Whole bean</label>
+  </div>
+</div>
+
+<article class="Brand border-bottom pt-3 ">
+  <h6 class="py-1">Coffee brands</h6>
+<div class="form ">
+<div class="form-group form-check  pb-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck2">
+    <label class="form-check-label  small" for="exampleCheck2">Lavazza</label>
+     </div>
+
+    <div class="form-group form-check  py-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck3">
+    <label class="form-check-label small" for="exampleCheck3">Starbucks</label>
+  </div>
+
+  <div class="form-group form-check  py-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck4">
+    <label class="form-check-label small" for="exampleCheck4">Nescafe</label>
+  </div>
+
+  <div class="form-group form-check py-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck5">
+    <label class="form-check-label small" for="exampleCheck5">Tchibo  </label>
+  </div>
+  <div class="form-group form-check py-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck6">
+    <label class="form-check-label small" for="exampleCheck6">Azera  </label>
+  </div>
+  <div class="form-group form-check py-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck7">
+    <label class="form-check-label small" for="exampleCheck7">Jacobs  </label>
+  </div>
+</div>
+</article>
+    
+<article class="Brand border-bottom pt-3 ">
+  <h6 class="py-1">Roasts</h6>
+<div class="form ">
+<div class="form-group form-check  pb-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck8">
+    <label class="form-check-label  small" for="exampleCheck8">Light Roast</label>
+     </div>
+
+    <div class="form-group form-check  py-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck9">
+    <label class="form-check-label small" for="exampleCheck9">Medium</label>
+  </div>
+
+  <div class="form-group form-check  py-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck10">
+    <label class="form-check-label small" for="exampleCheck10">Dark Roast</label>
+  </div>
+
+  <div class="form-group form-check py-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck11">
+    <label class="form-check-label small" for="exampleCheck11">Extra Dark Roast  </label>
+  </div>
+
+</div>
+
+</article>
+
+    
+<article class="Brand border-bottom pt-3 mb-4">
+  <h6 class="py-1">Price range</h6>
+<div class="form ">
+<div class="form-group form-check  pb-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck12">
+    <label class="form-check-label  small" for="exampleCheck12">5$-10$</label>
+     </div>
+
+    <div class="form-group form-check  py-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck13">
+    <label class="form-check-label small" for="exampleCheck13">10$-15$</label>
+  </div>
+
+  <div class="form-group form-check  py-1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck14">
+    <label class="form-check-label small" for="exampleCheck14">15$-18$</label>
+  </div>
+
+
+</div>
+
+</article>
+  <a href="#" class="button-pink px-3 ">Search</a>
+
+</div> 
+<!-- right section -->
+<div class="col-12 col-md-9 p-4">
+
+      <div class="results row ">
+
+      <article  class="col-6 col-md-12 m-auto d-flex flex-column  flex-md-row justify-content-center  border-bottom py-3">
+  
+       <img src="./img/stb5.jpg" class="d-block img-fluid add-img" width="50" alt="starbucks">
+
+      <div class="mx-md-3 add-desc">
+      <h3 class="pink add-heading">Starbucks house blend</h3>
+             <p class=" h6 pt-1">$12.50</p>
+      <p class="mb-3 add-p p-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dolorum, nulla iusto dolores quia quibusdam.
+       <br>
+       <div class="d-flex justify-content-between">
+         <div>
+        <a href="#" class="button-pink px-2 ">See more</a>
+        <a href="#" class="button-pink px-2"><i class="fas fa-shopping-cart fa-sm"></i> Buy</a>
+        </div>
+        
+         </div>
+      </div> 
+ </article>
+
+
+
+  <article  class="col-6 col-md-12  m-auto d-flex flex-column  flex-md-row justify-content-center  border-bottom py-3">
+  
+       <img src="./img/coffee2.jpg" class="d-block  img-fluid  add-img"  alt="starbucks-coffee">
+
+      <div class="mx-md-3 add-desc">
+      <h3 class="pink add-heading">Espresso Italiano</h3>
+             <p class=" h6 pt-1">$12.50</p>
+      <p class="mb-3 add-p p-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dolorum, nulla iusto dolores quia quibusdam.
+       <br>
+       <div class="d-flex justify-content-between">
+         <div>
+        <a href="#" class="button-pink px-2 ">See more</a>
+        <a href="#" class="button-pink px-2"><i class="fas fa-shopping-cart fa-sm"></i> Buy</a>
+        </div>
+        
+         </div>
+      </div> 
+ </article>
+
+  <article  class="col-6 col-md-12  m-auto d-flex flex-column  flex-md-row justify-content-center  border-bottom py-3">
+  
+       <img src="./img/other3.jpg" class="d-block  img-fluid  add-img"  alt="nicaragua-coffee">
+
+      <div class="mx-md-3 add-desc">
+      <h3 class="pink add-heading">Nicaragua</h3>
+             <p class=" h6 pt-1">$12.50</p>
+      <p class="mb-3 add-p p-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dolorum, nulla iusto dolores quia quibusdam.
+       <br>
+       <div class="d-flex justify-content-between">
+         <div>
+        <a href="#" class="button-pink px-2 ">See more</a>
+        <a href="#" class="button-pink px-2"><i class="fas fa-shopping-cart fa-sm"></i> Buy</a>
+        </div>
+        
+         </div>
+      </div> 
+ </article>
+
+  <article  class="col-6 col-md-12  m-auto d-flex flex-column  flex-md-row justify-content-center  border-bottom py-3">
+  
+       <img src="./img/other3.jpg" class="d-block   img-fluid add-img"  alt="columbia-coffee">
+
+      <div class="mx-md-3 add-desc">
+      <h3 class="pink add-heading">Columbia Coffee</h3>
+             <p class=" h6 pt-1">$12.50</p>
+      <p class="mb-3 add-p p-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dolorum, nulla iusto dolores quia quibusdam.
+       <br>
+       <div class="d-flex justify-content-between">
+         <div>
+        <a href="#" class="button-pink px-2 ">See more</a>
+        <a href="#" class="button-pink px-2"><i class="fas fa-shopping-cart fa-sm"></i> Buy</a>
+        </div>
+        
+         </div>
+      </div> 
+ </article>
+
+<article  class="col-6 col-md-12  m-auto d-flex flex-column  flex-md-row justify-content-center  border-bottom py-3">
+  
+       <img src="./img/other.jpg " class="d-block   img-fluid  add-img"  alt="lavazza">
+
+      <div class="mx-md-3 add-desc">
+      <h3 class="pink add-heading">Lavazza Quolita oro</h3>
+             <p class=" h6 pt-1">$12.50</p>
+      <p class="mb-3 add-p p-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dolorum, nulla iusto dolores quia quibusdam.
+       <br>
+       <div class="d-flex justify-content-between">
+         <div>
+        <a href="#" class="button-pink px-2 ">See more</a>
+        <a href="#" class="button-pink px-2"><i class="fas fa-shopping-cart fa-sm"></i> Buy</a>
+        </div>
+        
+         </div>
+      </div> 
+ </article>
+
+  <article  class="col-6 col-md-12  m-auto d-flex flex-column  flex-md-row justify-content-center  border-bottom py-3">
+  
+       <img src="./img/other3.jpg" class="d-block  img-fluid mb-3 add-img"  alt="nicaragua">
+
+      <div class="mx-md-3 add-desc">
+      <h3 class="pink add-heading">Nicaragua</h3>
+             <p class=" h6 pt-1">$12.50</p>
+      <p class="mb-3 add-p p-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dolorum, nulla iusto dolores quia quibusdam.
+       <br>
+       <div class="d-flex justify-content-between">
+         <div>
+        <a href="#" class="button-pink px-2  ">See more</a>
+        <a href="#" class="button-pink px-2 "><i class="fas fa-shopping-cart fa-sm"></i> Buy</a>
+        </div>
+        
+         </div>
+      </div> 
+ </article>
+ 
+      </div>
+</div>
+</div>
+<div class="row pb-4  ">
+    <div class="col d-flex justify-content-center">
+      <a href="#" class="page page-active ">1</a>
+      <a href="#" class="page">2</a>
+      <a href="#" class="page">3</a>
+      <a href="#" class="page">4</a>
+      <a href="#" class="page">5</a>
+      <a href="#" class="page">6</a>
+    
+</div>
+</div>
+
+</main>   
+<!-- Footer -->
+
+<footer class="container  pt-3 pb-1">  
+  <div class="mb-3">
+
+  <div class="footer-grid">
+  <article class="d-none d-md-block footer-logo p-2" >
+ <a class="font-weight-bold text-light h4" href="#"><img class="img-logo" src="./img/coffee-bean-128.png"   alt="logo-bean"> Busy Bean</a>
+ <p class="text-light p-footer mt-2 d-none d-md-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, aliquam vero. Placeat error unde similique beatae assumenda quaerat veritatis consectetur dicta, amet, omnis quis autem, recusandae voluptate?
+ </p>
+
+  </article>
+
+
+
+ 
+  <article class="mx-md-3  ">
+    <div class="border-pink">
+<h6 class="font-weight-bold pink h6 ">Brands</h6>
+    </div>
+
+<ul class="p-0 m-0">
+  <li><a href="./lavazza.html" class="text-dark small">Lavazza</a> </li>
+  <li><a href="./starbucks.html" class="text-dark small"  >Starbucks</a> </li>
+  <li><a href="./nicaragua.html" class="text-dark small"  >Nicoragua</a> </li>
+  <li><a href="./search.html" class="text-dark small"  >All</a> </li>
+</ul>
+  </article>
+
+    <article class="mx-md-3  ">
+<div class="border-pink">
+<h6 class="font-weight-bold pink h6 ">Help</h6>
+    </div>
+<ul class="p-0 m-0 ">
+  <li><a href="#" class="text-dark small">Contact</a> </li>
+  </ul>
+  </article>
+
+
+    <article class="mx-md-3  ">
+        <div class="border-pink">
+<h6 class="font-weight-bold pink h6 ">Navigation</h6>
+    </div>
+
+<ul class="p-0 m-0 ">
+  <li><a href="#" class="text-dark small">Home</a> </li>
+  <li><a href="#" class="text-dark small"  >Sign in</a> </li>
+  <li><a href="#" class="text-dark small"  >Sign up</a> </li>
+  <li><a href="#" class="text-dark small"  >Terms & Conditions</a> </li>
+  <li><a href="#" class="text-dark small"  >FAQ</a> </li>
+</ul>
+  </article>
+
+    <article class="d-none d-md-block mx-md-3  ">
+  
+
+
+  <div class="d-flex  align-items-center justify-content-between my-4">
+  <label class="pink input-label h6" > Country:  </label>
+
+  <div>
+  <button class="btn btn-outline-secondary dropdown-toggle input-input" type="button" data-bs-toggle="dropdown" aria-expanded="false">Russia</button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">South Africa</a></li>
+    <li><a class="dropdown-item" href="#">USA</a></li>
+    <li><a class="dropdown-item" href="#">Japan</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">All</a></li>
+  </ul>
+  </div>
+  </div>
+
+   <div class="d-flex align-items-center justify-content-between mb-3">
+  <label class="pink input-label h6">Currency: </label>
+  <div>
+  <button class="btn btn-outline-secondary dropdown-toggle input-input" type="button" data-bs-toggle="dropdown" aria-expanded="false">USD</button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">EUR</a></li>
+    <li><a class="dropdown-item" href="#">RUB</a></li>
+    <li><a class="dropdown-item" href="#">JPY</a></li>
+    
+  </ul>
+  </div>
+  </div>
+
+  <div class="d-flex mb-3   align-items-center justify-content-between">
+
+  <label class="pink input-label h6" >Language:</label>
+  <div>
+  <button class="btn btn-outline-secondary dropdown-toggle small input-input" type="button" data-bs-toggle="dropdown" aria-expanded="false">English</button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Spanish</a></li>
+    <li><a class="dropdown-item" href="#">Russian</a></li>
+    <li><a class="dropdown-item" href="#">Japanese</a></li>
+    <li><hr class="dropdown-divider"></li>
+ 
+  </ul>
+  </div>
+  </div>
+
+
+  </article>
+
+   </div>
+    </div>
+<div class="bottom border-top d-flex justify-content-between align-items-center text-dark" >
+            <p class="text-center my-3 small">Copyright@2020 busybean.com. All Rights Reserved. Designed By Mohammed Awad</p>
+            <ul class="social d-flex">
+              <li><i class="fab fa-instagram px-2 fa-lg"></i></li>
+              <li><i class="fab fa-facebook-f px-2 fa-lg"></i></li>
+              <li><i class="fab fa-twitter px-2 fa-lg"></i></li>
+              <li><i class="fab fa-pinterest px-2 fa-lg"></i></li>
+            </ul>
+        </div>
+</footer>
+      <!-- Page container -->
+   
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

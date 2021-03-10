@@ -1,41 +1,30 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone Project- Busy Bean
 
-> One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+>  Responsive eCommerce web page. 
 
-Additional description about the project and its features.
+| Homepage | Search result page| 
+| --- | --- |
+| ![](./img/homepage.png) | ![](./img/search-result.png)
+
+
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Bootstrap, 
 
 ## Live Demo
+[Live Demo Link](https://shoirata.github.io/Busy-bean/)
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
 
 ### Run tests
+
+npx hint . is used fot HTML & npx stylelint "**/*.{css,scss}" is used for CSS.
 
 ### Deployment
 
@@ -43,17 +32,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Shoira**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/shoirata)
+- Twitter: [@twitterhandle](https://twitter.com/Shoira03)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shoira-tashpulatova-bab4a7122/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+![Shoira's GitHub stats](https://github-readme-stats.vercel.app/api?username=shoirata&count_private=true)
 
 ## 🤝 Contributing
 
@@ -61,15 +46,12 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
+
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
