@@ -9,6 +9,10 @@
   color: var(--pink);
 }
 
+.border-pink{
+  border-bottom: 2px solid var(--pink);
+}
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -29,7 +33,8 @@ li {
 a,
 .font-weight-bold,
 .text-dark,
-.text-light {
+.text-light,
+h3>a {
   text-decoration: none;
   list-style: none;
 }
@@ -93,6 +98,12 @@ img {
 
 .img-logo {
   width: 20px;
+}
+
+.footer-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr );
+  grid-gap: 2rem;
 }
 
 footer > article > ul > li {
@@ -200,6 +211,15 @@ footer > article > ul > li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.input-label{
+  margin-right: 10px;
+}
+
+.input-input{
+  width: auto;  
+  height: 2.2rem;
 }
 
 /* search page main */
