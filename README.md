@@ -19,7 +19,7 @@
 - Bootstrap, 
 
 ## Live Demo
-[Live Demo Link](https://shoirata.github.io/ZATTIX/)
+[Live Demo Link](https://shoirata.github.io/Busy-bean/)
 
 
 ### Run tests
