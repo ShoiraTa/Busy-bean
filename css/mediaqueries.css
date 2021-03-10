@@ -44,10 +44,11 @@
     transition: all 0.3s ease;
     font-size: 1rem;
   }
-  .footer-grid{
-  display: grid;
-  grid-template-columns: repeat(5,1fr );
-}
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 @media screen and (min-width: 1000px) {
