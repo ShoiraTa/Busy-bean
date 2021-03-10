@@ -163,6 +163,14 @@ footer > article > ul > li {
   font-size: 1.2rem;
 }
 
+.add-icon{
+  color: var(--gray);
+}
+
+.add-icon:hover{
+  color: var(--pink);
+}
+
 /* Body */
 
 .body {
